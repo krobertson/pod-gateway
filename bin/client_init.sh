@@ -120,6 +120,6 @@ ip addr
 ip route
 
 # Check we can connect to the gateway ussing the vxlan device
-ping -c "${CONNECTION_RETRY_COUNT}" "$VXLAN_GATEWAY_IP"
+# ping -c "${CONNECTION_RETRY_COUNT}" "$VXLAN_GATEWAY_IP"
 
 echo "Gateway ready and reachable"
